@@ -1,6 +1,6 @@
 package online.library.book.dto.response;
 
-import com.example.author.model.Author;
+import online.library.author.model.Author;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

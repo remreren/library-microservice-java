@@ -1,6 +1,6 @@
 package online.library.book.service;
 
-import com.example.author.model.Author;
+import online.library.author.model.Author;
 import lombok.extern.slf4j.Slf4j;
 import online.library.book.dto.response.ResponseAuthorWithBooks;
 import online.library.book.dto.response.ResponseBookWithAuthor;
