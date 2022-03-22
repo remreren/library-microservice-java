@@ -1,6 +1,6 @@
-package com.example.author.api;
+package online.library.author.api;
 
-import com.example.author.model.Author;
+import online.library.author.model.Author;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

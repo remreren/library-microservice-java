@@ -20,10 +20,5 @@
     <packaging>jar</packaging>
 
     <dependencies>
-        <dependency>
-            <groupId>online.library.author</groupId>
-            <artifactId>author-api</artifactId>
-            <version>1.0</version>
-        </dependency>
     </dependencies>
 </project>

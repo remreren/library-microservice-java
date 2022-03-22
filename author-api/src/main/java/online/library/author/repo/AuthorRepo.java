@@ -1,6 +1,6 @@
-package com.example.author.repo;
+package online.library.author.repo;
 
-import com.example.author.model.Author;
+import online.library.author.model.Author;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

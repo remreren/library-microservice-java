@@ -1,4 +1,4 @@
-package com.example.author.model;
+package online.library.author.model;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.AllArgsConstructor;

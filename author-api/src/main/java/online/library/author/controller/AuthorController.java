@@ -1,8 +1,8 @@
-package com.example.author.controller;
+package online.library.author.controller;
 
-import com.example.author.api.AuthorApi;
-import com.example.author.model.Author;
-import com.example.author.service.AuthorService;
+import online.library.author.api.AuthorApi;
+import online.library.author.model.Author;
+import online.library.author.service.AuthorService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;

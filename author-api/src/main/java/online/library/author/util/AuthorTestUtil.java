@@ -1,6 +1,6 @@
-package com.example.author.util;
+package online.library.author.util;
 
-import com.example.author.model.Author;
+import online.library.author.model.Author;
 
 import java.util.Date;
 

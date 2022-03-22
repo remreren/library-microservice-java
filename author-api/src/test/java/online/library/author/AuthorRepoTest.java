@@ -1,7 +1,7 @@
-package com.example.author;
+package online.library.author;
 
-import com.example.author.model.Author;
-import com.example.author.repo.AuthorRepo;
+import online.library.author.model.Author;
+import online.library.author.repo.AuthorRepo;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,7 +10,7 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 
 import java.util.List;
 
-import static com.example.author.util.AuthorTestUtil.*;
+import static online.library.author.util.AuthorTestUtil.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 @ExtendWith(SpringExtension.class)
