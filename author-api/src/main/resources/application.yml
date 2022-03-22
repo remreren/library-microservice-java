@@ -1,0 +1,23 @@
+server:
+  port: 9002
+
+logging:
+  level:
+    root: ERROR
+    online.library: DEBUG
+
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000
+        loggerLevel: basic
+
+spring:
+  application:
+    name: author-api
+  cloud:
+    loadbalancer:
+      ribbon:
+        enable: false
