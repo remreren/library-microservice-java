@@ -119,5 +119,6 @@
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-cache:2.6.4" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context-support:5.3.16" level="project" />
     <orderEntry type="library" name="Maven: com.stoyanr:evictor:1.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-netflix-eureka-client:3.1.1" level="project" />
   </component>
 </module>
