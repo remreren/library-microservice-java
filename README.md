@@ -3,7 +3,7 @@ This is a library app. You can add books and authors and then search for many cr
 
 This project's aim is to get myself better understanding of how microservices work, how to create a good backend architecture and achieve best practices in backend development.
 
-I am using Aggregator, Chain of Responsibility, Command Query Responsibility Segregation (Soon), Event Sourcing (Soon), Circuit Breaker (Soon), API Gateway (Soon), Asynchronous Messaging (Message Queue) (Soon) and Database Per Service design patterns for this project.
+I am using Aggregator, Chain of Responsibility, Command Query Responsibility Segregation (Soon), Event Sourcing (Soon), Circuit Breaker (Soon), API Gateway, Asynchronous Messaging (Message Queue) (Soon) and Database Per Service design patterns for this project.
 
 ## Built With
 * [Spring Data](https://spring.io/projects/spring-data)
@@ -11,7 +11,7 @@ I am using Aggregator, Chain of Responsibility, Command Query Responsibility Seg
 * [Spring Boot](https://spring.io/projects/spring-boot)
 * [Spring Cloud](https://spring.io/projects/spring-cloud)
   * [OpenFeign](https://spring.io/projects/spring-cloud-openfeign)
-  * [Gateway (Soon)](https://spring.io/projects/spring-cloud-gateway)
+  * [Gateway](https://spring.io/projects/spring-cloud-gateway)
 * [Spring Security (Soon)](https://spring.io/projects/spring-security)
 * [Spring for Apache Kafka (Soon)](https://spring.io/projects/spring-kafka)
 ## Tech Stack
