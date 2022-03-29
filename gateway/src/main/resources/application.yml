@@ -1,0 +1,43 @@
+server:
+  port: 9091
+
+spring:
+  main:
+    web-application-type: reactive
+  application:
+    name:
+      gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: author-api
+          uri: lb://author-api
+          predicates:
+            - Path=/author/**
+        - id: book-api
+          uri: lb://book-api
+          predicates:
+            - Path=/book/**
+    loadbalancer:
+      ribbon:
+        enable: false
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+      fetchRegistry: true
+    instance:
+      preferIpAddress: true
+
+management:
+  endpoint:
+    gateway:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: gateway
