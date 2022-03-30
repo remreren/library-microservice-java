@@ -28,6 +28,6 @@ jobs:
           distribution: 'adopt'
 
       - name: Publish to GitHub Packages
-        run: mvn deploy -pl author-api -pl book-api -pl gateway -pl discovery-server
+        run: mvn deploy -pl library-modules/author-api -pl library-modules/book-api -pl library-modules/gateway -pl library-modules/discovery-server
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
