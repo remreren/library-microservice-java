@@ -23,6 +23,7 @@
         <module>book-api</module>
         <module>author-api</module>
         <module>discovery-server</module>
+        <module>gateway</module>
     </modules>
 
     <properties>
