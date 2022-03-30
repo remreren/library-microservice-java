@@ -17,10 +17,6 @@ jobs:
       - name: Build with Maven
         run: mvn --batch-mode --update-snapshots verify
 
-  deploy_packages:
-    runs-on: ubuntu-latest
-
-    steps:
       - name: Set up Java for publishing to GitHub Packages
         uses: actions/setup-java@v2
         with:
@@ -28,6 +24,6 @@ jobs:
           distribution: 'adopt'
 
       - name: Publish to GitHub Packages
-        run: mvn deploy -pl library-modules/author-api -pl library-modules/book-api -pl library-modules/gateway -pl library-modules/discovery-server
+        run: mvn deploy -pl author-api -pl book-api -pl gateway -pl discovery-server
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
