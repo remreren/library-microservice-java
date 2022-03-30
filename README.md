@@ -7,11 +7,12 @@ I am using Aggregator, Chain of Responsibility, Command Query Responsibility Seg
 
 ## Built With
 * [Spring Data](https://spring.io/projects/spring-data)
-  * [Jpa (Will be migrated to non-orm or hibernate)](https://spring.io/projects/spring-data-jpa)
+  * [Jpa (Will be migrated)](https://spring.io/projects/spring-data-jpa)
 * [Spring Boot](https://spring.io/projects/spring-boot)
 * [Spring Cloud](https://spring.io/projects/spring-cloud)
   * [OpenFeign](https://spring.io/projects/spring-cloud-openfeign)
   * [Gateway](https://spring.io/projects/spring-cloud-gateway)
+  * [Spring Cloud Netflix (Circuit Breaker)](https://spring.io/projects/spring-cloud-netflix)
 * [Spring Security (Soon)](https://spring.io/projects/spring-security)
 * [Spring for Apache Kafka (Soon)](https://spring.io/projects/spring-kafka)
 ## Tech Stack
