@@ -24,6 +24,6 @@ jobs:
           distribution: 'adopt'
 
       - name: Publish to GitHub Packages
-        run: mvn --batch-mode deploy
+        run: mvn deploy -pl user-api -pl book-api -pl gateway -pl discovery-server
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
