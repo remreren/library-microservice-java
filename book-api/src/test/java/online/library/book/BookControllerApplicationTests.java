@@ -1,10 +1,10 @@
-package online.library.author;
+package online.library.book;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class AuthorApiApplicationTests {
+class BookControllerApplicationTests {
 
     @Test
     void contextLoads() {

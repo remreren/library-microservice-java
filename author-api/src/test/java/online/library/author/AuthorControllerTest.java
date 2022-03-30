@@ -1,6 +1,6 @@
 package online.library.author;
 
-import online.library.author.controller.AuthorController;
+import online.library.author.controller.AuthorControllerImpl;
 import online.library.author.service.AuthorService;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -18,7 +18,7 @@ import static org.mockito.Mockito.*;
 public class AuthorControllerTest {
 
     private final AuthorService authorService = mock(AuthorService.class);
-    private final AuthorController authorController = new AuthorController(authorService);
+    private final AuthorControllerImpl authorController = new AuthorControllerImpl(authorService);
 
     @Test
     public void searchAuthorsTest() {
