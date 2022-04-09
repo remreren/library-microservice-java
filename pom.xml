@@ -22,8 +22,10 @@
     <modules>
         <module>book-api</module>
         <module>author-api</module>
+        <module>user-api</module>
         <module>discovery-server</module>
         <module>gateway</module>
+        <module>utility</module>
     </modules>
 
     <properties>

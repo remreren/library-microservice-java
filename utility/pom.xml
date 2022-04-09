@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
@@ -10,25 +9,24 @@
         <version>1.0</version>
     </parent>
 
-    <groupId>online.library.book</groupId>
-    <artifactId>book-api</artifactId>
+    <groupId>online.library.utility</groupId>
+    <artifactId>utility</artifactId>
     <version>1.0</version>
 
-    <name>book-api</name>
-    <description>book-api</description>
+    <name>utility</name>
+    <description>utility</description>
 
     <packaging>jar</packaging>
 
     <dependencies>
         <dependency>
-            <groupId>online.library.author</groupId>
-            <artifactId>author-api</artifactId>
-            <version>1.0</version>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
         </dependency>
         <dependency>
-            <groupId>online.library.utility</groupId>
-            <artifactId>utility</artifactId>
-            <version>1.0</version>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt</artifactId>
+            <version>0.9.1</version>
         </dependency>
     </dependencies>
 </project>

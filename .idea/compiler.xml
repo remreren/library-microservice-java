@@ -8,7 +8,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="author-api" />
+        <module name="utility" />
         <module name="discovery-server" />
+        <module name="user-api" />
         <module name="book-api" />
         <module name="gateway" />
       </profile>
@@ -20,6 +22,8 @@
       <module name="book-api" options="-parameters" />
       <module name="discovery-server" options="-parameters" />
       <module name="gateway" options="-parameters" />
+      <module name="user-api" options="-parameters" />
+      <module name="utility" options="-parameters" />
     </option>
   </component>
 </project>
