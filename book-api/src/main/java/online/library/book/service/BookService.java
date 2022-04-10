@@ -1,11 +1,11 @@
 package online.library.book.service;
 
 import lombok.extern.slf4j.Slf4j;
-import online.library.author.model.Author;
-import online.library.book.dto.response.ResponseAuthorWithBooks;
-import online.library.book.dto.response.ResponseBookWithAuthor;
+import online.library.utility.model.Author;
+import online.library.utility.dto.response.ResponseAuthorWithBooks;
+import online.library.utility.dto.response.ResponseBookWithAuthor;
 import online.library.book.exception.ItemNotFoundException;
-import online.library.book.model.Book;
+import online.library.utility.model.Book;
 import online.library.book.repo.BookRepo;
 import org.springframework.stereotype.Service;
 

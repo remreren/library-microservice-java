@@ -1,9 +1,10 @@
 package online.library.book.controller;
 
 import lombok.extern.slf4j.Slf4j;
-import online.library.book.dto.response.ResponseAuthorWithBooks;
-import online.library.book.dto.response.ResponseBookWithAuthor;
-import online.library.book.model.Book;
+import online.library.utility.dto.response.ResponseAuthorWithBooks;
+import online.library.utility.dto.response.ResponseBookWithAuthor;
+import online.library.utility.controller.BookController;
+import online.library.utility.model.Book;
 import online.library.book.service.BookService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;

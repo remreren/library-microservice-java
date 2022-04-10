@@ -1,6 +1,6 @@
 package online.library.book.repo;
 
-import online.library.book.model.Book;
+import online.library.utility.model.Book;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

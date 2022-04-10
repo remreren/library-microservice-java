@@ -1,6 +1,6 @@
 package online.library.book.service;
 
-import online.library.author.controller.AuthorController;
+import online.library.utility.controller.AuthorController;
 import org.springframework.cloud.openfeign.FeignClient;
 
 @FeignClient(value = "author-api", path = "/author")

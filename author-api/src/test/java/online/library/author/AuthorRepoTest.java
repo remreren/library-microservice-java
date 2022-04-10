@@ -1,6 +1,6 @@
 package online.library.author;
 
-import online.library.author.model.Author;
+import online.library.utility.model.Author;
 import online.library.author.repo.AuthorRepo;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

@@ -1,6 +1,6 @@
-package online.library.author.controller;
+package online.library.utility.controller;
 
-import online.library.author.model.Author;
+import online.library.utility.model.Author;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

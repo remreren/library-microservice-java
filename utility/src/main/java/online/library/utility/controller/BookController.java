@@ -1,8 +1,8 @@
-package online.library.book.controller;
+package online.library.utility.controller;
 
-import online.library.book.dto.response.ResponseAuthorWithBooks;
-import online.library.book.dto.response.ResponseBookWithAuthor;
-import online.library.book.model.Book;
+import online.library.utility.dto.response.ResponseAuthorWithBooks;
+import online.library.utility.dto.response.ResponseBookWithAuthor;
+import online.library.utility.model.Book;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

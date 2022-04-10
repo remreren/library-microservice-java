@@ -1,6 +1,6 @@
 package online.library.book.util;
 
-import online.library.book.model.Book;
+import online.library.utility.model.Book;
 
 import java.math.BigDecimal;
 import java.util.Date;

@@ -1,8 +1,9 @@
 package online.library.author.controller;
 
-import online.library.author.model.Author;
 import online.library.author.service.AuthorService;
 import lombok.extern.slf4j.Slf4j;
+import online.library.utility.model.Author;
+import online.library.utility.controller.AuthorController;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

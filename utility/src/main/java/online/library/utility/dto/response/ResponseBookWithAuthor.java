@@ -1,10 +1,10 @@
-package online.library.book.dto.response;
+package online.library.utility.dto.response;
 
-import online.library.author.model.Author;
+import online.library.utility.model.Author;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import online.library.book.model.Book;
+import online.library.utility.model.Book;
 
 @Data
 @AllArgsConstructor

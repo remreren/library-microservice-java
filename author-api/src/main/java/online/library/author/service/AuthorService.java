@@ -1,8 +1,8 @@
 package online.library.author.service;
 
-import online.library.author.model.Author;
 import online.library.author.repo.AuthorRepo;
 import lombok.extern.slf4j.Slf4j;
+import online.library.utility.model.Author;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
