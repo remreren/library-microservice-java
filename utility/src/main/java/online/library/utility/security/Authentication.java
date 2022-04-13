@@ -8,14 +8,15 @@ import io.jsonwebtoken.SignatureAlgorithm;
 import java.util.Date;
 import java.util.Map;
 import java.util.Optional;
+import java.util.function.BiFunction;
 
 public class Authentication {
 
-    private static final String secret = "kfbgkfgbf0";
+    private static final String secret = "testing";
     private static final SignatureAlgorithm algo = SignatureAlgorithm.HS512;
     public static final long JWT_TOKEN_VALIDITY = 5 * 60 * 60;
 
-    public static <Request, Response> Response authenticate(String header, Function2<TokenContent, String, Response> run) {
+    public static <Request, Response> Response authenticate(String header, BiFunction<TokenContent, String, Response> run) {
         var valid = validate(header);
         if (valid) return run.apply(new TokenContent(), header);
         else throw new IllegalStateException("Token is not valid");
